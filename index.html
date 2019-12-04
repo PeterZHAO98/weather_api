@@ -70,7 +70,7 @@
 
             let icon_id = json.weather[0].icon;
             // console.log(icon_id);
-            let icon_url = "http://openweathermap.org/img/wn/"+icon_id+"@2x.png"
+            let icon_url = "https://openweathermap.org/img/wn/"+icon_id+"@2x.png"
             // console.log(icon_url);
             $("#tempImg").attr({src: icon_url , alt:json.weather[0].description , title:json.weather[0].description});
             // console.log(icon_url);
